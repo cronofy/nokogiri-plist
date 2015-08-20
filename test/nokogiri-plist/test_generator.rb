@@ -1,4 +1,4 @@
-require 'test/test_helper'
+require_relative '../test_helper'
 
 class NokogiriPList::GeneratorTest < Test::Unit::TestCase
 

@@ -1,14 +1,17 @@
 PATH
   remote: .
   specs:
-    nokogiri-plist (0.4.1)
+    nokogiri-plist (0.5.0)
       nokogiri
 
 GEM
-  remote: http://rubygems.org/
+  remote: https://rubygems.org/
   specs:
+    mini_portile (0.6.2)
     mocha (0.9.12)
-    nokogiri (1.4.4)
+    nokogiri (1.6.6.2)
+      mini_portile (~> 0.6.0)
+    rake (0.9.6)
     shoulda (2.11.3)
 
 PLATFORMS
@@ -17,4 +20,8 @@ PLATFORMS
 DEPENDENCIES
   mocha
   nokogiri-plist!
+  rake
   shoulda
+
+BUNDLED WITH
+   1.10.6
